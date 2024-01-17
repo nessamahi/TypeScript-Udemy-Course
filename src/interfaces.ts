@@ -2,11 +2,11 @@
 interface AddFn {
   (a: number, b: number): number;
 }
-let add: AddFn;
+// let add: AddFn;
 
-add = (n1: number, n2: number) => {
-  return n1 + n2;
-};
+// add = (n1: number, n2: number) => {
+//   return n1 + n2;
+// };
 
 interface Greetable {
   name: string;
